@@ -9,16 +9,15 @@ Sadly to get started is a bit of a pain:
 1. Create a new Google Spreadsheet.
 2. Go to Tools-->Script Editor
 3. Replace the template with fitbit.js.
-4. Check the code around line 70-75. Change sheet_id to match your new sheet. Your sheet_id is a 44 character string shown in the URL.
-5. Save your changes and reload your sheet. 
-6. From the Fitbit menu in your Spreadsheet, run the Configure option. If you don't see the option, run "onInstall" function in script editor and try again.
-7. Follow the instructions given in the form that pops up. You'll have to set up a Fitbit dev account.
-8. Run the "Authorize" menu option -- this will run through the OAuth dance.
-9. Run the 'Refresh fitbit Time Data" menu option to get your data
-10. Profit!
+4. Save your changes and reload your sheet. 
+5. From the Fitbit menu in your Spreadsheet, run the Configure option. If you don't see the option, run "onInstall" function in script editor and try again.
+6. Follow the instructions given in the form that pops up. You'll have to set up a Fitbit dev account.
+7. Run the "Authorize" menu option -- this will run through the OAuth dance.
+8. Run the 'Refresh fitbit Time Data" menu option to get your data
+9. Profit!
 
 Optional:
-11. Set up a trigger for your script to run periodically.
+10. Set up a trigger for your script to run periodically.
 	- Script editor --> Resources --> All your triggers --> Add a new trigger for "refreshTimeSeries".
 
 [0]: http://drive.google.com
