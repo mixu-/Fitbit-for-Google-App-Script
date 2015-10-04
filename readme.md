@@ -1,8 +1,8 @@
 This little script runs in the Google App Script environment.
 
-Specifically it runs in [Google Spreadsheets][0]. It lets you suck down your Fitbit data and the do all kinds of analysis.  It's also an easy way to get started with the Fitbit API. This code is based on the work loghound did in his project [4]. I have added support for heart rate figures that are produced by a Fitbit Charge HR. This version can also be scheduled using triggers.
+Specifically it runs in [Google Spreadsheets][0]. It lets you suck down your Fitbit data and the do all kinds of analysis.  It's also an easy way to get started with the Fitbit API. This code is based on the work loghound did in [his project][3]. I have added support for heart rate figures that are produced by a Fitbit Charge HR. This version can also be scheduled using triggers.
 
-I recommend you have a look at [2] for getting the hang of how OAuth 2.0 works.
+If you want to know how OAuth 2.0 works, have a look at [a sample][2].
 
 Sadly to get started is a bit of a pain:
 
@@ -24,3 +24,4 @@ Optional:
 [0]: http://drive.google.com
 [1]: https://github.com/loghound/Fitbit-for-Google-App-Script
 [2]: https://github.com/googlesamples/apps-script-oauth2
+[3]: https://github.com/loghound/Fitbit-for-Google-App-Script
